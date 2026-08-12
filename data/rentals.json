@@ -1,0 +1,80 @@
+[
+  {
+    "point_id": "R-001",
+    "community_id": "C-001",
+    "community": "仓溢东苑",
+    "title": "1室1厅小套间（需核真整租）",
+    "rent": 900,
+    "area": 28,
+    "orientation": "未明确",
+    "status": "ACTIVE",
+    "source_url": "https://hz.zu.anjuke.com/ditie/dt142-s4828/",
+    "source_freshness": "2026-07-29索引",
+    "property_type": "普通住宅小区内出租房",
+    "electricity": "待核：是否国家电网直缴/原价转收",
+    "independent_entrance": "待核",
+    "independent_kitchen_bath": "页面写独立厨卫；需现场确认",
+    "recommendation": "B",
+    "reason": "价格异常低，优先核是否改造套间、假整租。",
+    "lat": 30.285585,
+    "lon": 120.000988,
+    "transit": {
+      "verified": false,
+      "minutes": null,
+      "stops": null,
+      "route": "待核"
+    }
+  },
+  {
+    "point_id": "R-002",
+    "community_id": "C-002",
+    "community": "仓溢绿苑",
+    "title": "1室1厅整租 精装修",
+    "rent": 1950,
+    "area": null,
+    "orientation": "未明确",
+    "status": "ACTIVE",
+    "source_url": "https://www.fang.com/houses/zf_129787hz/",
+    "source_freshness": "2026-08-11仍被索引",
+    "property_type": "住宅",
+    "electricity": "小区民水民电信息较强；具体房源仍需核独立电表",
+    "independent_entrance": "待核",
+    "independent_kitchen_bath": "待核",
+    "recommendation": "A",
+    "reason": "价格和位置都好，核清电表与独立入户即可约看。",
+    "lat": 30.28572,
+    "lon": 119.98705,
+    "transit": {
+      "verified": false,
+      "minutes": null,
+      "stops": null,
+      "route": "待核"
+    }
+  },
+  {
+    "point_id": "R-003",
+    "community_id": "C-006",
+    "community": "仓梦合寓",
+    "title": "1室1厅1卫 35㎡ 朝南 精装",
+    "rent": 1500,
+    "area": 35,
+    "orientation": "南",
+    "status": "ACTIVE",
+    "source_url": "https://hz.zu.anjuke.com/fangyuan/4595226851421187/",
+    "source_freshness": "2026-06-30更新",
+    "property_type": "普通住宅",
+    "electricity": "必须核：公开评价中出现较高电费收费反馈",
+    "independent_entrance": "待核",
+    "independent_kitchen_bath": "页面为1室1厅1卫；厨房需核",
+    "recommendation": "A-",
+    "reason": "价格优秀，但电费和位置坐标需先核。",
+    "lat": null,
+    "lon": null,
+    "transit": {
+      "verified": false,
+      "minutes": null,
+      "stops": null,
+      "route": "待核"
+    }
+  }
+]
