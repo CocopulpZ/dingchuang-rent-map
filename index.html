@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0f2b5b" />
+  <title>鼎创财富中心周边租房决策地图</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIINfQ3yn5c8Jq4x8oapO7YpUn/6Qx6XYnQ=" crossorigin="">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div>
+      <h1>鼎创财富中心周边租房决策地图 <span>v2.0</span></h1>
+      <p>一室一厅整租｜≤3000元｜5km内｜优先住宅 + 民水民电 + 独立厨卫</p>
+    </div>
+    <div id="lastUpdate" class="last-update">数据载入中…</div>
+  </header>
+
+  <section class="toolbar">
+    <label>最高租金 <input id="maxRent" type="range" min="1000" max="3000" step="100" value="3000"><b id="rentValue">3000</b>元</label>
+    <label><input id="onlyResidential" type="checkbox" checked> 优先住宅</label>
+    <label><input id="onlyActionable" type="checkbox"> 只看 A / S 级</label>
+    <button id="fitAll">显示全部点位</button>
+  </section>
+
+  <main>
+    <section class="map-panel">
+      <div id="map"></div>
+      <div class="legend">
+        <span><i class="dot work"></i>鼎创财富中心</span>
+        <span><i class="dot s"></i>S级</span>
+        <span><i class="dot a"></i>A级</span>
+        <span><i class="dot b"></i>B级/待核</span>
+      </div>
+    </section>
+
+    <aside>
+      <div class="aside-head">
+        <h2>当前房源</h2>
+        <span id="count"></span>
+      </div>
+      <div id="cards"></div>
+    </aside>
+  </main>
+
+  <section class="detail-panel">
+    <h2>点位详情</h2>
+    <div id="detail">点击地图点位或房源卡查看详情。</div>
+  </section>
+
+  <footer>
+    Point ID 与每日 09:00 / 18:00 监控通知保持一致。公交时间与站数只有在可靠核实时才显示，否则标为“待核”。
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="app.js"></script>
+</body>
+</html>

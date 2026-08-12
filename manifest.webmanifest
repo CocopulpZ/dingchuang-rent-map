@@ -1,0 +1,9 @@
+{
+  "name": "鼎创财富中心租房决策地图",
+  "short_name": "鼎创租房",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f7fb",
+  "theme_color": "#0f2b5b",
+  "description": "杭州鼎创财富中心周边一室一厅租房决策地图"
+}
